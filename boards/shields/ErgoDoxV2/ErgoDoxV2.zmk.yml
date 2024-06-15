@@ -1,0 +1,11 @@
+file_format: "1"
+id: ErgoDoxV2
+name: ERGODOXV2
+type: shield
+url: https://github.com/roastflame22/ErgoDoxV2.git
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - ErgoDoxV2_left
+  - ErgoDoxV2_right
