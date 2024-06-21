@@ -1,10 +1,19 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
+
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
     };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        wakeup-source;
+
+        diode-direction = "col2row";
+    };
+    
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
@@ -29,5 +38,6 @@
                                                             RC(4,7)         RC(4,8)
         >; 
     };
+
 };
 //test1
