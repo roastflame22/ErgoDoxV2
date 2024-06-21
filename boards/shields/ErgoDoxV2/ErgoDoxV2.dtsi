@@ -10,11 +10,11 @@
         compatible = "zmk,matrix-transform";
         rows = <5>;
         columns = <16>;
-// |  -  | 1 | 2 | 3 | 4 | 5 | x |        | x | 6 | 7 | 8 | 9 | 0 |  -  |
-// |  -  | q | w | e | r | t | l |        | l | y | u | i | 0 | p |  \  |
-// |  -  | a | s | d | f | g | l |        | l | h | j | k | l | ; |  '  |
-// | shft| z | x | c | v | b |                | n | m | , | . | / | shft|
-//   | x | x | x | x | x |                        | x | x | x | x | x |
+// |  `  | 1    | 2  | 3 | 4 | 5 | x |        | x | 6 | 7 | 8 | 9 | 0 |  -  |
+// | tab | q    | w  | e | r | t | l |        | l | y | u | i | 0 | p |  \  |
+// | cap | a    | s  | d | f | g | l |        | l | h | j | k | l | ; |  '  |
+// | shft| z    | x  | c | v | b |                | n | m | , | . | / | shft|
+// | cntr| LALT |wind| x | x |                        | x | x | x | x | x |
 //                       | x | x |        | x | x |
 //                   | l | l | x |        | x | l | l |
 //                           | x |        | x |
